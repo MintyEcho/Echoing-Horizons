@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "npx tsc",
+    "start": "npx tsc && node build/index.js",
     "jasmine": "jasmine"
   },
   "name": "horizons",

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- mm svelte migration -->
+ <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,3 +32,5 @@
         <p>aaand i need to add fun mechanics via backend and js (it will be torture)</p>
     </body>
 </html>
+
+<!-- alright so i know what i just did im sorry i will be editing that in the future -->
