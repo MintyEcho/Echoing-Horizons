@@ -32,3 +32,7 @@
 </html>
 
 <!-- alright so i know what i just did im sorry i will be editing that in the future -->
+
+<!-- 10/3 i am utterly confused, i do not know how to use svelte, no idea what to do next. -->
+<!-- 10/3 please god help me i a -->
+ 
