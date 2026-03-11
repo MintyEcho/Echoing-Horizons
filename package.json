@@ -1,33 +1,30 @@
 {
-  "devDependencies": {
-    "@types/jasmine": "^6.0.0",
-    "@types/node": "^25.3.3",
-    "jasmine-spec-reporter": "^7.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
-  },
-  "scripts": {
-    "build": "npx tsc",
-    "start": "npx tsc && node build/index.js",
-    "jasmine": "jasmine"
-  },
-  "name": "horizons",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MintyEcho/Echoing-Horizons.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/MintyEcho/Echoing-Horizons/issues"
-  },
-  "homepage": "https://github.com/MintyEcho/Echoing-Horizons#readme",
-  "dependencies": {
-    "jasmine": "^6.1.0"
-  }
+	"name": "horizons",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/kit": "^2.50.2",
+		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@types/express": "^5.0.6",
+		"@types/jasmine": "^6.0.0",
+		"jasmine": "^6.1.0",
+		"jasmine-spec-reporter": "^7.0.0",
+		"svelte": "^5.51.0",
+		"svelte-check": "^4.4.2",
+		"typescript": "^5.9.3",
+		"vite": "^7.3.1"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	}
 }
